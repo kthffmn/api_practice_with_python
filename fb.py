@@ -54,6 +54,6 @@ for my_friend in my_friends:
 
 print(friend_id_and_overlapping_friends)
 f_w_most_mutual = max(friend_id_and_overlapping_friends)
-yay = [x for x in data['data'] if x['id'] == f_w_most_mutual[1]]
-print(yay)
+their_name = [x for x in data['data'] if x['id'] == f_w_most_mutual[1]]
+print(their_name)
 
