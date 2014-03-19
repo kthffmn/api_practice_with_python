@@ -3,18 +3,6 @@ import time
 
 # Twitter OAuth Keys and Secrets
 
-# Mine:
-consumer_key = 'L6WB7nEiKupG4i6yjfHhCw'
-consumer_secret = '3Yq1Mrm295ZiSmyxalui7ORhXhdW14UIRwPrhdJ570'
-access_token = '394988283-HtD6jPUfvV46a5VQtUdVkTb4yOfA9l6L5YJzYsLm'
-access_token_secret = 'a7CC8M5bWy2OldkmhnDhtqf9cm2sFC5zlBzxYW8INCLV4'
-
-# Harold's:
-# consumer_key = 'Y3S0XTEzicvGeXfIylnWg'
-# consumer_secret = 'AgDaE7lTnSYyNrY2N73U4Cg2sR6kYGzJZY3yXyzQK8'
-# access_token = '22175229-sgeyVQnTOdnJ5351CK0WFCytvCOMFO7ShvV2RMAOS'
-# access_token_secret ='frFIe2FRW4cttuo6LtYPKkchyjFoWpqDIYLgqrz9EbNxQ'
-
 # from https://github.com/requests/requests-oauthlib
 api = twitter.Api(consumer_key=consumer_key,
                   consumer_secret=consumer_secret,
